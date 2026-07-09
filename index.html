@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>churrasqueria</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Churrasquería Ferrufino | Sabor a las Brasas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>CHURRASQUERIA FERRUFNO</h1>
+
+    <header class="navbar">
+        <div class="logo">
+            CHURRASQUERÍA <span>FERRUFINO</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Nuestro Menú</a>
+            <a href="#experiencia">La Experiencia</a>
+        </nav>
+        <a href="https://wa.me/591XXXXXXXX" target="_blank" class="btn-whatsapp nav-btn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.948 0c3.179.001 6.164 1.24 8.413 3.488 2.248 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.34 11.904-11.89 11.904-.001 0-.001 0 0 0-2.002-.001-3.974-.504-5.731-1.464L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.743 1.451 5.4 0 9.794-4.392 9.797-9.794.001-2.618-1.017-5.08-2.867-6.93C16.415 2.03 13.957 1.01 11.944 1.01c-5.4 0-9.8 4.393-9.803 9.795-.001 1.73.461 3.42 1.337 4.937l-.994 3.633 3.722-.976zm11.232-4.103c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.15-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.197 0-.518.074-.79.37-.272.296-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/></svg>
+            Reserva o Pedido
+        </a>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="subtitle-fade">EL AUTÉNTICO SABOR TRADICIONAL</h2>
+            <h1 class="title-glow">PASIÓN POR LAS BRASAS</h1>
+            <p class="hero-description">Cortes premium seleccionados, asados lentamente al calor del carbón y la leña. Solo la mejor carne, directo a tu mesa.</p>
+            <a href="#menu" class="btn-primary">Ver el Menú</a>
+        </div>
+        <div class="hero-skew"></div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Nuestras Especialidades a la Parrilla</h2>
+            <p class="section-subtitle">Puro sabor a brasas, sin adornos innecesarios.</p>
+            
+            <div class="menu-grid">
+                
+                <div class="menu-card featured">
+                    <div class="card-badge">Especialidad</div>
+                    <div class="card-img-container">
+                        http://googleusercontent.com/image_generation_content/0
+                    </div>
+                    <div class="card-body">
+                        <h3>El Churrasco Tradicional</h3>
+                        <p class="menu-ingredients">Carne, Costilla y Chorizo a las brasas</p>
+                        <p class="menu-text">El indiscutible favorito de la casa. Un corte de res premium, excepcionalmente jugoso, acompañado de nuestra tierna costilla y chorizo artesanal. El auténtico sabor tradicional asado a la perfección.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?auto=format&fit=crop&w=600&q=80" alt="Pollo a la parrilla cociéndose">
+                    </div>
+                    <div class="card-body">
+                        <h3>Pollo a la Parrillada</h3>
+                        <p class="menu-ingredients"> interior jugoso</p>
+                        <p class="menu-text">Pollo entero marinado y expuesto al humo y fuego lento de la parrilla hasta lograr el dorado perfecto.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1628268909376-e8c44a72d3ee?auto=format&fit=crop&w=600&q=80" alt="Chorizo a la parrilla">
+                    </div>
+                    <div class="card-body">
+                        <h3>Chorizo a la Parrillada</h3>
+                        <p class="menu-ingredients">Puro sabor artesanal</p>
+                        <p class="menu-text">Chorizos dorándose en la parrilla, soltando sus jugos sobre las brasas para un sabor ahumado inigualable.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Pacumuto cociéndose">
+                    </div>
+                    <div class="card-body">
+                        <h3>Pacumuto a la Parrillada</h3>
+                        <p class="menu-ingredients">Carne ensartada al fuego</p>
+                        <p class="menu-text">Trozos gruesos de carne premium en fierro, absorbiendo todo el carácter y el humo del carbón encendido.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience-section">
+        <div class="experience-content">
+            <h2>¿Listo para vivir la experiencia?</h2>
+            <p>Haz clic abajo para contactarnos directamente por WhatsApp. ¡Las brasas ya están encendidas!</p>
+            <a href="https://wa.me/59172573309" target="_blank" class="btn-whatsapp-large">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.948 0c3.179.001 6.164 1.24 8.413 3.488 2.248 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.34 11.904-11.89 11.904-.001 0-.001 0 0 0-2.002-.001-3.974-.504-5.731-1.464L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.743 1.451 5.4 0 9.794-4.392 9.797-9.794.001-2.618-1.017-5.08-2.867-6.93C16.415 2.03 13.957 1.01 11.944 1.01c-5.4 0-9.8 4.393-9.803 9.795-.001 1.73.461 3.42 1.337 4.937l-.994 3.633 3.722-.976zm11.232-4.103c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.15-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.197 0-.518.074-.79.37-.272.296-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/></svg>
+                Pedir por WhatsApp Ahora
+            </a>
+        </div>
+    </section>
+
+    <a href="https://wa.me/59172573309" target="_blank" class="whatsapp-floating" title="Escríbenos directamente">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.948 0c3.179.001 6.164 1.24 8.413 3.488 2.248 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.34 11.904-11.89 11.904-.001 0-.001 0 0 0-2.002-.001-3.974-.504-5.731-1.464L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.743 1.451 5.4 0 9.794-4.392 9.797-9.794.001-2.618-1.017-5.08-2.867-6.93C16.415 2.03 13.957 1.01 11.944 1.01c-5.4 0-9.8 4.393-9.803 9.795-.001 1.73.461 3.42 1.337 4.937l-.994 3.633 3.722-.976zm11.232-4.103c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.15-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.197 0-.518.074-.79.37-.272.296-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/></svg>
+    </a>
+
+    <footer>
+        <p>&copy; 2026 Churrasquería Ferrufino. Todos los derechos reservados.</p>
+        <p class="footer-sub">Sabor premium hecho con pasión.</p>
+    </footer>
+
 </body>
 </html>
