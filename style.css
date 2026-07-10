@@ -488,3 +488,20 @@ footer p {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+/* BOTÓN DE UBICACIÓN */
+.btn-location {
+    display: inline-block;
+    background-color: #e74c3c; /* Color rojo estilo Google Maps */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.btn-location:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+}
